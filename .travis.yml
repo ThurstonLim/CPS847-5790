@@ -6,5 +6,5 @@ python:
   - "3.7"
 
 script:
-  - coverage run test_file.py
+  - coverage run cps5790test.py
 
