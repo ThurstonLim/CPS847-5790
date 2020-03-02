@@ -1,6 +1,6 @@
 import unittest
 
-import cps5790.py
+import cps5790
 
 class Test(unittest.TestCase):
         def test(self):
