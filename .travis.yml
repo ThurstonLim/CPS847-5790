@@ -4,7 +4,7 @@ language: python
 
 python:
   - "3.7"
-
+  
 script:
-  - coverage run cps5790test.py
+  - run cps5790test.py
 
