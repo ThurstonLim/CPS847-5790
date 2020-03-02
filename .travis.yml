@@ -17,3 +17,8 @@ script:
 after_success:
   - codecov
 
+deploy:
+  provider: s3
+  access_key_id: "AWSAccessKeyId=AKIAIYXENBRYLCOV5N3A"
+  secret_access_key: "AWSSecretKey=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"
+  bucket: "cps847midterm5790"
