@@ -4,7 +4,16 @@ language: python
 
 python:
   - "3.7"
-  
+
+install:
+  - pip install codecov
+
+env:
+  CODECOV_TOKEN="e50770c5-8920-437b-b0e7-41195e30a410"
+
 script:
-  - run cps5790test.py
+  - coverage run cps5790test.py
+
+after_success:
+  - codecov
 
